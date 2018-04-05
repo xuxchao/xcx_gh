@@ -1,0 +1,14 @@
+<template name="star">
+  <view style='display: flex;flex-direction: row;'>
+    <block wx:for='{{starList}}' wx:key='{{*this}}'>
+      <view style='color:{{item.color}};font-size:{{item.size+"rpx"}};margin:0 17rpx;' data-color='{{item.color}}' data-index='{{index}}' bindtap='starClick'>★</view>
+    </block>
+  </view>
+</template>
+<template name="star-view">
+  <view style='display: flex;flex-direction: row;'>
+    <block wx:for='{{starListView}}' wx:key='{{*this}}'>
+      <view style='color:{{item.color}};font-size:{{item.size+"rpx"}};margin:0 17rpx;' data-color='{{item.color}}' data-index='{{index}}'>★</view>
+    </block>
+  </view>
+</template>

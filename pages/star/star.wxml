@@ -1,0 +1,26 @@
+<!--pages/star/star.wxml-->
+<import src="../common/head.wxml" />
+<import src="../common/foot.wxml" />
+<import src="/template/star/star.wxml" />
+<view class="container">
+  <template is="head" data="{{title: 'star'}}" />
+  <view class='pj'>
+  <view class='pj-line'></view>
+  <view>可以打分，分值为{{starPoints}}</view>
+  <view class='pj-line'></view>
+</view>
+<view class='star'>
+  
+  <template is="star" data="{{starList}}" />
+</view>
+  <view class='pj'>
+  <view class='pj-line'></view>
+  <view>固定分数</view>
+  <view class='pj-line'></view>
+</view>
+<view class='star'>
+  <template is="star-view" data="{{starListView}}" />
+</view>
+
+  <template is="foot" />
+</view>

@@ -1,0 +1,20 @@
+/* pages/star/star.wxss */
+/*评价  */
+.pj{
+  margin-top:20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #b9b9b9;
+  font-size: 33rpx;
+}
+.pj .pj-line{
+  border-top: 1rpx solid #b9b9b9;
+  width:150rpx;
+}
+/*小星星  */
+.star{
+  display: flex;
+  justify-content: center;
+  margin: 49rpx;
+}

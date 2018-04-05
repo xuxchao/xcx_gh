@@ -1,0 +1,2 @@
+/* pages/date/date.wxss */
+@import "/template/date/date.wxss";

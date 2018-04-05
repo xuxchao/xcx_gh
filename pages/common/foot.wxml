@@ -1,0 +1,5 @@
+<template name="foot">
+  <navigator class="page-foot" openType="navigateBack" url="/pages/index/index" hover-class="none">
+    <view style='height:30rpx;color:#BEBEBE;font-size:32rpx;'>作者：MrXu</view>
+  </navigator>
+</template>

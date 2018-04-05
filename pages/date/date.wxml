@@ -1,0 +1,9 @@
+<import src="../common/head.wxml" />
+<import src="../common/foot.wxml" />
+<view class="container">
+  <template is="head" data="{{title: 'date'}}" />
+  <import src="/template/date/date.wxml" />
+  <template is="date" data="{{weeks_ch,cur_year,cur_month,hasEmptyGrid,empytGrids,days,today,curMonth}}" />
+  <view>当前选中了:{{target_date}}</view>
+  <template is="foot" />
+</view>

@@ -1,0 +1,14 @@
+<import src="../common/head.wxml" />
+<import src="../common/foot.wxml" />
+<view class="container">
+  <template is="head" data="{{title: 'sort'}}" />
+  <view style='text-align:center'>排序前:<block wx:for='{{noName}}' wx:key="{{index}}">{{item}} </block></view>
+  <view style='text-align:center'>正序:<block wx:for='{{noName1}}' wx:key="{{index}}">{{item}} </block></view>
+  <view style='text-align:center'>倒叙:<block wx:for='{{noName2}}' wx:key="{{index}}">{{item}} </block></view>
+  <view style='text-align:center'>排序前:<block wx:for='{{name}}' wx:key="{{index}}">{price:{{item.price}}} </block></view>
+  <view style='text-align:center'>正序:<block wx:for='{{name1}}' wx:key="{{index}}">{price:{{item.price}}} </block></view>
+  <view style='text-align:center'>倒叙:<block wx:for='{{name2}}' wx:key="{{index}}">{price:{{item.price}}} </block></view>
+
+  <view style='color:green;text-align:center;font-size:24rpx;'>只需要一句话就可以完成这些操作是不是非常方便</view>
+  <template is="foot" />
+</view>
